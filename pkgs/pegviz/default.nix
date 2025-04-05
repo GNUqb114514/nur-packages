@@ -7,7 +7,7 @@ rustPlatform.buildRustPackage rec {
     owner = "fasterthanlime";
     repo = pname;
     rev = version;
-    hash = "sha256-sa2KVwme31J/ExzHa3IApVXFH0kctEsSN8dG4rSwzIk=";
+    hash = lib.fakeHash;
   };
   cargoHash = "sha256-S+faDFqxtuQX7ZH1Hg3NWHSGFtWvUp0QoU8tjrSInBw=";
   meta = {
